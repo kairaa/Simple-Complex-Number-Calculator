@@ -27,7 +27,7 @@ namespace ConsoleApp1
             ComplexNum division = c1 / c2;
             division.print();
 
-            ComplexNum implicitt = 8;
+            ComplexNum implicitt = 9;
             implicitt.print();
 
             Console.WriteLine(c1 == c2);    
