@@ -15,31 +15,27 @@ namespace ConsoleApp1
             c1.print();
             c2.print();
 
-            ComplexNum c3 = c1 + c2;
-            c3.print();
+            ComplexNum sum = c1 + c2;
+            sum.print();
 
-            ComplexNum c4 = c1 - c2;
-            c4.print();
+            ComplexNum subtraction = c1 - c2;
+            subtraction.print();
 
-            ComplexNum c5 = c1 * c2;
-            c5.print();
+            ComplexNum multiplication = c1 * c2;
+            multiplication.print();
 
-            ComplexNum c6 = c1 / c2;    //doğru çalışmıyor
-            c6.print();
+            ComplexNum division = c1 / c2;
+            division.print();
 
-            ComplexNum c8 = 8;          //implicit
-            c8.print();
+            ComplexNum implicitt = 8;
+            implicitt.print();
+
+            Console.WriteLine(c1 == c2);    
+
+            double explicitt = (double)c1;    //explicit
+            Console.WriteLine(explicitt);
 
             Console.WriteLine(c1 == c2);
-
-            /*ComplexNum c9 = new ComplexNum(2, 3);
-            c9.birYaz(c9);*/            
-
-            double c10 = (double)c1;    //explicit
-            Console.WriteLine(c10);
-
-            ComplexNum c11 = c10;   //implicit (c1 den geleni X+0i biçimine döndürüyor)
-            c11.print();
 
             Console.ReadLine();
         }
