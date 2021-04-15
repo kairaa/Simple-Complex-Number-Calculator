@@ -28,11 +28,9 @@ namespace ConsoleApp1
             division.print();
 
             ComplexNum implicitt = 9;
-            implicitt.print();
+            implicitt.print();  
 
-            Console.WriteLine(c1 == c2);    
-
-            double explicitt = (double)c1;    //explicit
+            double explicitt = (double)c1;
             Console.WriteLine(explicitt);
 
             Console.WriteLine(c1 == c2);
